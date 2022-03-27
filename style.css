@@ -1,29 +1,36 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    background-image: url(https://www.google.com/search?q=traffic+lights+night&tbm=isch&ved=2ahUKEwiy-tDvgpzxAhWSDOwKHRZGChwQ2-cCegQIABAA&oq=traffic+lights+night&gs_lcp=CgNpbWcQAzIECAAQEzIECAAQEzIICAAQCBAeEBMyCAgAEAgQHhATMggIABAIEB4QEzIICAAQCBAeEBMyCAgAEAgQHhATMggIABAIEB4QEzIICAAQCBAeEBMyCAgAEAgQHhATUPkiWNcmYOEnaABwAHgAgAGBAYgBlwSSAQMyLjOYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=1tzJYLK3D5KZsAeWjKngAQ&bih=969&biw=1920&rlz=1C1KDEC_roRO926RO926#imgrc=svwJPyqii2IbAM&imgdii=dYxX4jPLnraOEM);
-    font-family: "Lato", sans-serif;
+body {
+  background-image: url(https://www.google.com/search?q=traffic+lights+night&tbm=isch&ved=2ahUKEwiy-tDvgpzxAhWSDOwKHRZGChwQ2-cCegQIABAA&oq=traffic+lights+night&gs_lcp=CgNpbWcQAzIECAAQEzIECAAQEzIICAAQCBAeEBMyCAgAEAgQHhATMggIABAIEB4QEzIICAAQCBAeEBMyCAgAEAgQHhATMggIABAIEB4QEzIICAAQCBAeEBMyCAgAEAgQHhATUPkiWNcmYOEnaABwAHgAgAGBAYgBlwSSAQMyLjOYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=1tzJYLK3D5KZsAeWjKngAQ&bih=969&biw=1920&rlz=1C1KDEC_roRO926RO926#imgrc=svwJPyqii2IbAM&imgdii=dYxX4jPLnraOEM);
+  font-family: "Lato", sans-serif;
 }
-h2{
-    font-size: 5rem;
-    font-weight: bold;
-    padding: 3rem;
+h2 {
+  font-size: 5rem;
+  font-weight: bold;
+  padding: 3rem;
 }
-.coming-soon{
-    min-width: 100vh; /*100% din size ul screenului */
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
+.waiting {
+  width: 30%;
+  height: auto;
 }
-.countdown{
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
+.coming-soon {
+  min-width: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
-.day,.hour,.minute,.second{
-    font-size: 2rem;
+.countdown {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.day,
+.hour,
+.minute,
+.second {
+  font-size: 2rem;
 }
